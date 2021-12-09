@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Pacifico&family=Playfair+Display:ital@1&display=swap');
+
+body {
+  margin: 0%;
+  background-color: #fff;
+  color: black;
+}
+
+#titre {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+
+}
+
+nav {
+  font-family: "Pacifico";
+  font-size: 15px;
+  font-weight: 100px;
+
+}
+
+a {
+  color: black;
+}
+
+ul {
+  background: #f8efbe;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-wrap: wrap;
+  float: none;
+  justify-content: space-around;
+  padding: 12px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  
+}
+ul i {
+  padding: 10px;
+}
+header {
+  text-align: center;
+
+}
+
+img {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  ;
+}
+
+.image1 {
+  display: flex;
+  align-items: center;
+  margin: 0% auto;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0%;
+  word-wrap: break-word;
+  cursor: pointer;
+
+}
+
+.image1 h2 {
+  display: flex;
+  margin-top: 80%;
+  margin-left: 45%;
+  font-size: 20px;
+
+}
+
+.image1 p {
+  display: flex;
+  margin-left: 25%;
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+#macarons {
+  background-image: url(assets/images/macaron2.jpeg );
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-top: 8%;
+
+
+}
+
+#cookies {
+  background-image: url(assets/images/cookies1.jpeg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-top: 8%;
+  position: relative;
+  box-sizing: border-box;
+
+}
+
+#cupcakes {
+  background-image: url(assets/images/cupcake1.jpeg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-top: 8%;
+}
+
+.image2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.image2 img {
+  border-radius: 50%;
+  border: solid 2px #F0F3F4;
+  max-width: 150px;
+  max-height: 150px;
+  margin: 0px 0px 8px;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+.image2 h2 {
+  font-size: 15px;
+
+}
+
+#tarteauxfraises {
+  background-image: url(assets/images/tarteauxfraises1.jpg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-top: 8%;
+}
+
+#crêpes {
+  background-image: url(assets/images/crepes2.jpeg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-top: 8%;
+}
+
+#galettedesrois {
+  background-image: url(assets/images/galettedesrois1.jpg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-top: 8%;
+}
+
+.image3 {
+  display: flex;
+  align-items: center;
+  margin: 0% auto;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 0%;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.image3 h2 {
+  display: flex;
+  margin-top: 80%;
+  margin-left: 45%;
+  font-size: 20px;
+}
+
+.image3 p {
+  display: flex;
+  margin-left: 50%;
+  font-size: 15px;
+  margin-top: 5%;
+
+}
+
