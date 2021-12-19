@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Pacifico&family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Nunito:ital,wght@1,300&family=Pacifico&family=Playfair+Display:wght@500&display=swap');
+
 body {
   margin: 0%;
   background-color: #fff;
@@ -267,106 +268,212 @@ img {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
 }
+
 .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 2px;
   grid-row-gap: 1px;
-  }
-  h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    margin-top: 2%;
-  }
-  .div1 img { 
-    grid-area: 1 / 1 / 2 / 2;
-    width: 300px;
-    height: 300px;
-    margin-top: 10%;
-   }
-  .div2 { 
-    grid-area: 1 / 2 / 2 / 3;
-    font-family: 'Luxurious Roman', cursive;
-    font-size: 18px;
-    margin-top: 10%;
-    margin-right: 10%;
-    border: solid 1px black;
-    border-radius: 10%;
-    align-items: center;
-   }
-  .div3 { 
-    grid-area: 2 / 1 / 3 / 2;
-    font-family: 'Luxurious Roman', cursive;
-    font-size: 18px;
-    margin-top: 10%;
-    margin-left: 10%;
-    border: solid 1px black;
-    border-radius: 10%;
-    align-items: center;
-   }
-  .div4 img { 
-    grid-area: 2 / 2 / 3 / 3;
-    width: 300px;
-    height: 300px;
-    margin-top: 10%;
-   }
-  .div5 img { 
-    grid-area: 3 / 1 / 4 / 2;
-    width: 300px;
-    height: 300px;
-    margin-top: 10%;
+}
 
-   }
-  .div6 { 
-    grid-area: 3 / 2 / 4 / 3;
-    font-family: 'Luxurious Roman', cursive;
-    font-size: 19px;
-    margin-top: 10%;
-    margin-right: 10%;
-    border: solid 1px black;
-    border-radius: 10%;
-    align-items: center;
-    text-align: center;
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin-top: 2%;
+}
 
-    
-  }
-  .div7 { 
-    grid-area: 4 / 1 / 5 / 2;
-    font-family: 'Luxurious Roman', cursive;
-    font-size: 17px;
-    margin-top: 10%;
-    margin-left: 10%;
-    border: solid 1px black;
-    border-radius: 10%;
-    align-items: center;
-    
-   }
-  .div8 img { 
-    grid-area: 4 / 2 / 5 / 3;
-    width: 300px;
-    height: 300px;
-    margin-top: 10%;
-  }
+.div1 img {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
 
-  .div9 img { 
-    grid-area: 5 / 1 / 6 / 2;
-    width: 300px;
-    height: 300px;
-    margin-top: 10%;
-   }
-  .div10 { 
-    grid-area: 5 / 2 / 6 / 3;
-    font-family: 'Luxurious Roman', cursive;
-    font-size: 17px;
-    margin-top: 10%;
-    margin-right: 10%;
-    border: solid 1px black;
-    border-radius: 10%;
-    align-items: center;
-    text-align: center; 
-  }
-  p {
-    border-top: 10%;
-    align-items: center;
-  }
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+}
+
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+}
+
+.div4 img {
+  grid-area: 2 / 2 / 3 / 3;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div5 img {
+  grid-area: 3 / 1 / 4 / 2;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+
+}
+
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 19px;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.div7 {
+  grid-area: 4 / 1 / 5 / 2;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 17px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+}
+
+.div8 img {
+  grid-area: 4 / 2 / 5 / 3;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div9 img {
+  grid-area: 5 / 1 / 6 / 2;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div10 {
+  grid-area: 5 / 2 / 6 / 3;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 17px;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  border-top: 10%;
+  align-items: center;
+}
+
+/*Newsletter*/
+
+.fond {
+  background-image: url(assets/images/cuisine.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+
+#container {
+  background-image: linear-gradient(to top, rgba(205, 156, 242, 0.40) 0%, rgba(246, 255, 255, 0.71) 100%);
+  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  text-align: center;
+  border-radius: 5px;
+  margin: 3em auto;
+  background: rgba(255, 255, 255, 0.95);
+  height: 300px;
+  width: 480px;
+  padding: 1em;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#container h2 {
+  background-image: url(assets/images/cuisine.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top, #080808 0%, #f6f3ff 100%);
+  font-family: 'Playfair Display', serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  letter-spacing: 2px;
+  font-size: 3.5em;
+  margin: 0;
+
+}
+
+#container p {
+  font-family: 'Farsan', cursive;
+  margin: 3px 0 1.5em 0;
+  font-size: 1.3em;
+  color: #7d7d7d;
+}
+
+#container input {
+  width: 210px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 7px;
+  background: #eee;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  color: #222;
+  transition: 0.3s linear;
+}
+
+::placeholder {
+  color: #999;
+}
+
+#container input:focus {
+  background: rgba(0, 0, 333, 0.10);
+}
+
+#container button {
+  background-image: linear-gradient(to left, rgba(181, 250, 223, 0.712) 0%, rgba(4, 141, 88, 0.616) 100%);
+  box-shadow: 0 9px 25px -5px #df91fb;
+  font-family: 'Abel', sans-serif;
+  padding: 0.5em 1.9em;
+  margin: 2.3em 0 0 0;
+  border-radius: 7px;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  transition: 0.3s linear;
+
+}
+
+#container button:hover {
+  transform: translatey(2px);
+}
+
+#container button:active {
+  transform: translatey(5px);
+}
