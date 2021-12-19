@@ -477,3 +477,161 @@ p {
 #container button:active {
   transform: translatey(5px);
 }
+
+/*Matériel*/
+
+.intro {
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 28px;
+  align-items: center;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 1px;
+}
+
+.div11 {
+  grid-area: 1 / 1 / 2 / 2;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+}
+
+.div12 img {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div13 img {
+  grid-area: 2 / 1 / 3 / 2;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div14 {
+  grid-area: 2 / 2 / 3 / 3;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+}
+
+.div15 {
+  grid-area: 3 / 1 / 4 / 2;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+}
+
+.div16 img {
+  grid-area: 3 / 2 / 4 / 3;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div17 img{
+  grid-area: 4 / 1 / 5 / 2;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div18 {
+  grid-area: 4 / 2 / 5 / 3;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+
+}
+
+.div19 {
+  grid-area: 5 / 1 / 6 / 2;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+}
+
+.div20 img {
+  grid-area: 5 / 2 / 6 / 3;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div21 img {
+  grid-area: 6 / 1 / 7 / 2;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+
+.div22 {
+  grid-area: 6 / 2 / 7 / 3;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+}
+
+.div23 {
+  grid-area: 7 / 1 / 8 / 2;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: solid 1px black;
+  border-radius: 10%;
+  align-items: center;
+
+}
+
+.div24 img{
+  grid-area: 7 / 2 / 8 / 3;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font: bold;
+  color: #7d7d7d;
+  font-size: 30px;
+  margin-top: 2%;
+
+}
