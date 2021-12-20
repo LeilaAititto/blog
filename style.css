@@ -122,7 +122,7 @@ img {
 
 }
 
-.image1 p {
+.image1 a {
   display: flex;
   margin-left: 25%;
   font-size: 15px;
@@ -192,7 +192,28 @@ img {
 
 .image2 h2 {
   font-size: 15px;
+  
 
+}
+.dark-bg1{
+  background-color: #dbdad9;
+  opacity: 0.5;
+  height: 68px;
+}
+
+.dark-bg a{
+  display: flex;
+  margin-left: 25%;
+  font-size: 15px;
+  margin-top: 5%;
+  color: black;
+}
+.dark-bg1 p {
+  display: flex;
+  margin-left: 25%;
+  font-size: 15px;
+  margin-top: 2%;
+  color: black;
 }
 
 #tarteauxfraises {
@@ -267,7 +288,7 @@ img {
 /* Page Macarons */
 .Titre {
   font-family: 'Playfair Display', serif;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .parent {
