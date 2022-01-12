@@ -94,9 +94,11 @@ img {
 }
 
 .image1 {
-  display: flex;
-  align-items: center;
-  margin: 0% auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   background-color: transparent;
@@ -106,11 +108,6 @@ img {
 
 }
 
-.dark-bg {
-  background-color: #dbdad9;
-  opacity: 0.5;
-  height: 68px;
-}
 
 .image1 h2 {
   display: flex;
@@ -131,129 +128,129 @@ img {
 
 }
 
-#macarons {
-  background-image: url(assets/images/macaron2.jpeg );
+.macarons1 {
+  background-image: url(assets/images/macarons3.jpg );
   background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-  display: block;
-  width: 500px;
-  height: 500px;
+  display: grid;
+  width: 446.33px;
+  height: 447.38px;
   margin-top: 8%;
 
 
 }
 
-#cookies {
-  background-image: url(assets/images/cookies1.jpeg);
+.cookies1 {
+  background-image: url(assets/images/cookies2.jpg);
   background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-  display: block;
-  width: 500px;
-  height: 500px;
+  display: grid;
+  width: 446.33px;
+  height: 447.38px;
   margin-top: 8%;
   position: relative;
   box-sizing: border-box;
 
 }
 
-#cupcakes {
-  background-image: url(assets/images/cupcake1.jpeg);
+.cupcakes1 {
+  background-image: url(assets/images/cupcake2.jpg);
   background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-  display: block;
-  width: 500px;
-  height: 500px;
+  display: grid;
+  width: 446.33px;
+  height: 447.38px;
   margin-top: 8%;
 }
 
 .image2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   justify-content: space-around;
   text-align: center;
   font-family: 'Playfair Display', serif;
 
+
+
 }
 
 .image2 img {
+  display: grid;
   border-radius: 50%;
   border: solid 2px #F0F3F4;
   max-width: 150px;
   max-height: 150px;
   margin: 0px 0px 8px;
   cursor: pointer;
+  margin-left: 25%;
   margin-top: 10%;
 }
 
 .image2 h2 {
   font-size: 15px;
-  
-
-}
-.dark-bg1{
-  background-color: #dbdad9;
-  opacity: 0.5;
-  height: 68px;
 }
 
-.dark-bg a{
-  display: flex;
+.dark-bg a {
+  display: grid;
   margin-left: 25%;
   font-size: 15px;
   margin-top: 5%;
   color: black;
 }
-.dark-bg1 p {
-  display: flex;
+
+.dark-bg p {
+  display: grid;
   margin-left: 25%;
   font-size: 15px;
   margin-top: 2%;
   color: black;
 }
 
-#tarteauxfraises {
+.tarteauxfraises1 {
   background-image: url(assets/images/tarteauxfraises1.jpg);
   background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-  display: block;
-  width: 500px;
-  height: 500px;
+  display: grid;
+  width: 446.33px;
+  height: 447.38px;
   margin-top: 8%;
 }
 
-#crêpes {
+.crêpes1 {
   background-image: url(assets/images/crepes3.jpeg);
   background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-  display: block;
-  width: 500px;
-  height: 500px;
+  display: grid;
+  width: 446.33px;
+  height: 447.38px;
   margin-top: 8%;
 }
 
-#galettedesrois {
+.galettedesrois1 {
   background-image: url(assets/images/galettedesrois1.jpg);
   background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  float: left;
-  display: block;
-  width: 500px;
-  height: 500px;
+  display: grid;
+  width: 446.33px;
+  height: 447.38px;
   margin-top: 8%;
 }
 
 .image3 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   align-items: center;
   margin: 0% auto;
   color: white;
@@ -289,6 +286,7 @@ img {
 .Titre {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
+  text-align: center;
 }
 
 .parent {
@@ -573,7 +571,7 @@ p {
   margin-top: 10%;
 }
 
-.div17 img{
+.div17 img {
   grid-area: 4 / 1 / 5 / 2;
   width: 300px;
   height: 300px;
@@ -643,12 +641,13 @@ p {
 
 }
 
-.div24 img{
+.div24 img {
   grid-area: 7 / 2 / 8 / 3;
   width: 300px;
   height: 300px;
   margin-top: 10%;
 }
+
 h2 {
   font-family: 'Playfair Display', serif;
   font: bold;
@@ -656,6 +655,7 @@ h2 {
   margin-top: 2%;
 
 }
+
 /* Tarte aux fraises */
 
 .parent {
@@ -693,7 +693,7 @@ h2 {
   margin-right: 10%;
   border: solid 1px black;
   border-radius: 10%;
-  align-items: center; 
+  align-items: center;
 }
 
 .div28 img {
@@ -701,7 +701,6 @@ h2 {
   width: 300px;
   height: 300px;
   margin-top: 10%
-
 }
 
 .div29 img {
@@ -709,7 +708,6 @@ h2 {
   width: 300px;
   height: 300px;
   margin-top: 10%
-
 }
 
 .div30 {
@@ -739,8 +737,6 @@ h2 {
   width: 300px;
   height: 300px;
   margin-top: 10%
-
-
 }
 
 .div33 img {
@@ -761,3 +757,112 @@ h2 {
   align-items: center;
 }
 
+/*Recette*/
+
+.slider {
+  width: 600px;
+  height: 500px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+
+.slides {
+  width: calc(500px * 3);
+  animation: glisse 10s infinite;
+}
+
+.slide {
+  float: left;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-620px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.text {
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.text1 h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  size: bold;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.text1 img {
+  margin-top: 10%;
+}
+
+.images {
+  display: flex;
+  float: none;
+  margin-top: -5%;
+
+}
+
+@media screen and (max-width:700px) {
+  .nav {
+    width: 90%;
+  }
+  img{
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .image1 {
+    display:block;
+    width: 500px;
+    height: 500px;
+    
+  }
+  .macarons1 {
+    background-image: url(assets/images/macarons3.jpg );
+    background-size: contain;
+  }
+  .cupcakes1 {
+    background-image: url(assets/images/cupcake2.jpg);
+  }
+  .cookies1 {
+    background-image: url(assets/images/cookies1.jpeg);
+  }
+
+  .image2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image3 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  h2 {
+    display: block;
+    width: 90%;
+    height: 90%;
+  }
